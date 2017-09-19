@@ -20,6 +20,7 @@ import {DataTableScrollDemo} from './datatablescrolldemo';
 import {DataTableSelectionDemo} from './datatableselectiondemo';
 import {DataTableSortDemo} from './datatablesortdemo';
 import {DataTableTemplatingDemo} from './datatabletemplatingdemo';
+import {DataTableComplexDemo} from "app/showcase/components/datatable/datatablecomplexdemo";
 
 @NgModule({
 	imports: [
@@ -43,7 +44,8 @@ import {DataTableTemplatingDemo} from './datatabletemplatingdemo';
             {path: 'contextmenu', component: DataTableCMDemo},
             {path: 'coltoggler', component: DataTableColTogglerDemo},
             {path: 'rowexpansion', component: DataTableRowExpansionDemo},
-            {path: 'export', component: DataTableExportDemo}
+            {path: 'export', component: DataTableExportDemo},
+            {path: 'gotcomplex', component: DataTableComplexDemo}
 		])
 	],
 	exports: [

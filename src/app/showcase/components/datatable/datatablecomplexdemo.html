@@ -1,0 +1,228 @@
+
+<!--<hr/>-->
+<!--Column Grouping - Alone (All OK)-->
+<!--<hr/>-->
+
+<!--<p-dataTable-->
+  <!--[value]="reportData.data"-->
+  <!--expandableRows="true"-->
+  <!--[responsive]="true"-->
+  <!--selectionMode="single"-->
+  <!--scrollable="true"-->
+  <!--scrollWidth="1200px"-->
+  <!--scrollHeight="200px"-->
+  <!--(onRowSelect)="onRowSelect($event)"-->
+  <!--[(selection)]="selectedData"-->
+  <!--styleClass="small-data-table">-->
+
+  <!--<p-headerColumnGroup>-->
+    <!--<p-row>-->
+      <!--<p-column header="Name" rowspan="2"></p-column>-->
+      <!--<p-column header="Birth" rowspan="2"></p-column>-->
+      <!--<p-column header="Living" rowspan="2"></p-column>-->
+      <!--<p-column header="Skill" rowspan="2"></p-column>-->
+      <!--<p-column header="Parents" colspan="2"></p-column>-->
+      <!--<p-column header="Siblings" colspan="2"></p-column>-->
+    <!--</p-row>-->
+    <!--<p-row>-->
+      <!--<p-column header="BLADE"></p-column>-->
+      <!--<p-column header="CHALICE"></p-column>-->
+      <!--<p-column header="BLADE"></p-column>-->
+      <!--<p-column header="CHALICE"></p-column>-->
+    <!--</p-row>-->
+  <!--</p-headerColumnGroup>-->
+
+  <!--<p-column field="name"></p-column>-->
+  <!--<p-column field="birthPlace"></p-column>-->
+  <!--<p-column field="livingIn"></p-column>-->
+  <!--<p-column field="skill"></p-column>-->
+
+  <!--<p-column field="PARENT-BLADE"></p-column>-->
+  <!--<p-column field="PARENT-CHALICE"></p-column>-->
+  <!--<p-column field="SIBLING-BLADE"></p-column>-->
+  <!--<p-column field="SIBLING-CHALICE"></p-column>-->
+
+<!--</p-dataTable>-->
+
+
+<!--<hr/>-->
+<!--(BUG) Column Grouping - with Frozen Column-->
+<!--<hr/>-->
+
+<!--<p-dataTable-->
+  <!--[value]="reportData.data"-->
+  <!--expandableRows="true"-->
+  <!--[responsive]="true"-->
+  <!--selectionMode="single"-->
+  <!--scrollable="true"-->
+  <!--frozenWidth="600px"-->
+  <!--unfrozenWidth="600px"-->
+  <!--scrollWidth="1200px"-->
+  <!--scrollHeight="200px"-->
+  <!--styleClass="small-data-table">-->
+
+  <!--<p-headerColumnGroup>-->
+    <!--<p-row>-->
+      <!--<p-column header="Name" rowspan="2"></p-column>-->
+      <!--<p-column header="Birth" rowspan="2"></p-column>-->
+      <!--<p-column header="Living" rowspan="2"></p-column>-->
+      <!--<p-column header="Skill" rowspan="2"></p-column>-->
+      <!--<p-column header="PARENTS" colspan="2"></p-column>-->
+      <!--<p-column header="SIBLINGS" colspan="2"></p-column>-->
+    <!--</p-row>-->
+    <!--<p-row>-->
+      <!--<p-column header="BLADE"></p-column>-->
+      <!--<p-column header="CHALICE"></p-column>-->
+      <!--<p-column header="BLADE"></p-column>-->
+      <!--<p-column header="CHALICE"></p-column>-->
+    <!--</p-row>-->
+  <!--</p-headerColumnGroup>-->
+
+  <!--<p-column field="name" frozen="true"></p-column>-->
+  <!--<p-column field="birthPlace" frozen="true"></p-column>-->
+  <!--<p-column field="livingIn" frozen="true"></p-column>-->
+  <!--<p-column field="skill" frozen="true"></p-column>-->
+
+  <!--<p-column field="PARENT-BLADE"></p-column>-->
+  <!--<p-column field="PARENT-CHALICE"></p-column>-->
+  <!--<p-column field="SIBLING-BLADE"></p-column>-->
+  <!--<p-column field="SIBLING-CHALICE"></p-column>-->
+
+<!--</p-dataTable>-->
+
+
+
+<!--<hr/>-->
+<!--(BUG) Column Grouping - with Frozen Column (width on groups)-->
+<!--<hr/>-->
+
+<!--<p-dataTable-->
+  <!--[value]="reportData.data"-->
+  <!--expandableRows="true"-->
+  <!--[responsive]="true"-->
+  <!--selectionMode="single"-->
+  <!--scrollable="true"-->
+  <!--frozenWidth="600px"-->
+  <!--unfrozenWidth="600px"-->
+  <!--scrollWidth="1200px"-->
+  <!--scrollHeight="200px"-->
+  <!--styleClass="small-data-table">-->
+
+  <!--<p-headerColumnGroup>-->
+    <!--<p-row>-->
+      <!--<p-column header="Name" rowspan="2" [style]="{'width': '150px'}"></p-column>-->
+      <!--<p-column header="Birth" rowspan="2" [style]="{'width': '150px'}"></p-column>-->
+      <!--<p-column header="Living" rowspan="2" [style]="{'width': '150px'}"></p-column>-->
+      <!--<p-column header="Skill" rowspan="2" [style]="{'width': '150px'}"></p-column>-->
+      <!--<p-column header="PARENTS" colspan="2" [style]="{'width': '300px'}"></p-column>-->
+      <!--<p-column header="SIBLINGS" colspan="2" [style]="{'width': '300px'}"></p-column>-->
+    <!--</p-row>-->
+    <!--<p-row>-->
+      <!--<p-column header="BLADE" [style]="{'width': '200px'}"></p-column>-->
+      <!--<p-column header="CHALICE" [style]="{'width': '200px'}"></p-column>-->
+      <!--<p-column header="BLADE" [style]="{'width': '200px'}"></p-column>-->
+      <!--<p-column header="CHALICE" [style]="{'width': '200px'}"></p-column>-->
+    <!--</p-row>-->
+  <!--</p-headerColumnGroup>-->
+
+  <!--<p-column field="name" frozen="true"></p-column>-->
+  <!--<p-column field="birthPlace" frozen="true"></p-column>-->
+  <!--<p-column field="livingIn" frozen="true"></p-column>-->
+  <!--<p-column field="skill" frozen="true"></p-column>-->
+
+  <!--<p-column field="PARENT-BLADE"></p-column>-->
+  <!--<p-column field="PARENT-CHALICE"></p-column>-->
+  <!--<p-column field="SIBLING-BLADE"></p-column>-->
+  <!--<p-column field="SIBLING-CHALICE"></p-column>-->
+
+<!--</p-dataTable>-->
+
+<!--<hr/>-->
+<!--(BUG) Column Grouping - with Frozen Column (width on fields)-->
+<!--<hr/>-->
+
+<!--<p-dataTable-->
+  <!--[value]="reportData.data"-->
+  <!--expandableRows="true"-->
+  <!--[responsive]="true"-->
+  <!--selectionMode="single"-->
+  <!--scrollable="true"-->
+  <!--frozenWidth="600px"-->
+  <!--unfrozenWidth="600px"-->
+  <!--scrollWidth="1200px"-->
+  <!--scrollHeight="200px"-->
+  <!--styleClass="small-data-table">-->
+
+  <!--<p-headerColumnGroup>-->
+    <!--<p-row>-->
+      <!--<p-column header="Name" rowspan="2"></p-column>-->
+      <!--<p-column header="Birth" rowspan="2"></p-column>-->
+      <!--<p-column header="Living" rowspan="2"></p-column>-->
+      <!--<p-column header="Skill" rowspan="2"></p-column>-->
+      <!--<p-column header="PARENTS" colspan="2"></p-column>-->
+      <!--<p-column header="SIBLINGS" colspan="2"></p-column>-->
+    <!--</p-row>-->
+    <!--<p-row>-->
+      <!--<p-column header="BLADE"></p-column>-->
+      <!--<p-column header="CHALICE"></p-column>-->
+      <!--<p-column header="BLADE"></p-column>-->
+      <!--<p-column header="CHALICE"></p-column>-->
+    <!--</p-row>-->
+  <!--</p-headerColumnGroup>-->
+
+  <!--<p-column field="name" frozen="true" [style]="{'width': '150px'}"></p-column>-->
+  <!--<p-column field="birthPlace" frozen="true" [style]="{'width': '150px'}"></p-column>-->
+  <!--<p-column field="livingIn" frozen="true" [style]="{'width': '150px'}"></p-column>-->
+  <!--<p-column field="skill" frozen="true" [style]="{'width': '150px'}"></p-column>-->
+
+  <!--<p-column field="PARENT-BLADE" [style]="{'width': '200px'}"></p-column>-->
+  <!--<p-column field="PARENT-CHALICE" [style]="{'width': '200px'}"></p-column>-->
+  <!--<p-column field="SIBLING-BLADE" [style]="{'width': '200px'}"></p-column>-->
+  <!--<p-column field="SIBLING-CHALICE" [style]="{'width': '200px'}"></p-column>-->
+
+<!--</p-dataTable>-->
+
+<hr/>
+(BUG) Column Grouping - with Frozen Column (width on both)
+<hr/>
+
+<p-dataTable
+  [value]="reportData.data"
+  expandableRows="true"
+  [responsive]="true"
+  selectionMode="single"
+  scrollable="true"
+  frozenWidth="600px"
+  unfrozenWidth="600px"
+  scrollWidth="1200px"
+  scrollHeight="200px"
+  styleClass="small-data-table">
+
+  <p-headerColumnGroup>
+    <p-row>
+      <p-column header="Name" rowspan="2" frozen="true" [style]="{'width': '150px'}"></p-column>
+      <p-column header="Birth" rowspan="2" frozen="true" [style]="{'width': '150px'}"></p-column>
+      <p-column header="Living" rowspan="2" frozen="true" [style]="{'width': '150px'}"></p-column>
+      <p-column header="Skill" rowspan="2" frozen="true" [style]="{'width': '150px'}"></p-column>
+      <p-column header="PARENTS" colspan="2" [style]="{'width': '300px'}"></p-column>
+      <p-column header="SIBLINGS" colspan="2" [style]="{'width': '300px'}"></p-column>
+    </p-row>
+    <p-row>
+      <p-column header="BLADE" [style]="{'width': '200px'}"></p-column>
+      <p-column header="CHALICE" [style]="{'width': '200px'}"></p-column>
+      <p-column header="BLADE" [style]="{'width': '200px'}"></p-column>
+      <p-column header="CHALICE" [style]="{'width': '200px'}"></p-column>
+    </p-row>
+  </p-headerColumnGroup>
+
+  <p-column field="name" frozen="true" [style]="{'width': '150px'}"></p-column>
+  <p-column field="birthPlace" frozen="true" [style]="{'width': '150px'}"></p-column>
+  <p-column field="livingIn" frozen="true" [style]="{'width': '150px'}"></p-column>
+  <p-column field="skill" frozen="true" [style]="{'width': '150px'}"></p-column>
+
+  <p-column field="PARENT-BLADE" [style]="{'width': '200px'}"></p-column>
+  <p-column field="PARENT-CHALICE" [style]="{'width': '200px'}"></p-column>
+  <p-column field="SIBLING-BLADE" [style]="{'width': '200px'}"></p-column>
+  <p-column field="SIBLING-CHALICE" [style]="{'width': '200px'}"></p-column>
+<!--passin frozen true/false to scroll view and cascade it to pcolumns through group - use only frozen or unfrozen column base on that.-->
+</p-dataTable>

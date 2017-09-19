@@ -13,6 +13,7 @@ import { CarService } from './service/carservice';
 import { CountryService } from './service/countryservice';
 import { EventService } from './service/eventservice';
 import { NodeService } from './service/nodeservice';
+import {GotDataService} from "./service/gotservice";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { NodeService } from './service/nodeservice';
   ],
   providers: [
       { provide: LocationStrategy, useClass: HashLocationStrategy },
-      CarService,CountryService,EventService,NodeService
+      CarService,CountryService,EventService,NodeService, GotDataService
   ],
   bootstrap: [AppComponent]
 })

@@ -1,0 +1,91 @@
+{
+  "famData": [
+    "PARENT", "SIBLING"
+  ],
+  "famDetailData": [{
+    "key": "BLADE", "label": "^"
+  }, {
+    "key": "CHALICE", "label": "v"
+  }],
+  "data": [{
+    "name": "Arya Stark",
+    "birthPlace": "Winterfell",
+    "livingIn": "Winterfell",
+    "skill": "Faceless",
+    "alive": "YES",
+    "PARENT-BLADE": "Ned Stark",
+    "PARENT-CHALICE": "Catelyn Stark",
+    "SIBLING-BLADE": "Brann,Robb..",
+    "SIBLING-CHALICE": "Sansa"
+  }, {
+    "name": "John Snow",
+    "birthPlace": "Winterfell",
+    "livingIn": "Winterfell",
+    "skill": "Faceless",
+    "alive": "YES",
+    "PARENT-BLADE": "Rhaeger",
+    "PARENT-CHALICE": "Lyanna",
+    "SIBLING-BLADE": "Brann,Robb..",
+    "SIBLING-CHALICE": "Sansa"
+  }, {
+    "name": "Jorah Mormant",
+    "birthPlace": "???",
+    "livingIn": "???",
+    "skill": "???",
+    "alive": "YES",
+    "PARENT-BLADE": "Jeor Mormont",
+    "PARENT-CHALICE": "???",
+    "SIBLING-BLADE": "???",
+    "SIBLING-CHALICE": "???"
+  }, {
+    "name": "Jaime Lannister",
+    "birthPlace": "???",
+    "livingIn": "Kings Landing",
+    "skill": "Knight",
+    "alive": "YES",
+    "PARENT-BLADE": "Tywin",
+    "PARENT-CHALICE": "???",
+    "SIBLING-BLADE": "tyrion",
+    "SIBLING-CHALICE": "cercei"
+  },{
+    "name": "Arya Stark",
+    "birthPlace": "Winterfell",
+    "livingIn": "Winterfell",
+    "skill": "Faceless",
+    "alive": "YES",
+    "PARENT-BLADE": "Ned Stark",
+    "PARENT-CHALICE": "Catelyn Stark",
+    "SIBLING-BLADE": "Brann,Robb..",
+    "SIBLING-CHALICE": "Sansa"
+  }, {
+    "name": "John Snow",
+    "birthPlace": "Winterfell",
+    "livingIn": "Winterfell",
+    "skill": "Faceless",
+    "alive": "YES",
+    "PARENT-BLADE": "Rhaeger",
+    "PARENT-CHALICE": "Lyanna",
+    "SIBLING-BLADE": "Brann,Robb..",
+    "SIBLING-CHALICE": "Sansa"
+  }, {
+    "name": "Jorah Mormant",
+    "birthPlace": "???",
+    "livingIn": "???",
+    "skill": "???",
+    "alive": "YES",
+    "PARENT-BLADE": "Jeor Mormont",
+    "PARENT-CHALICE": "???",
+    "SIBLING-BLADE": "???",
+    "SIBLING-CHALICE": "???"
+  }, {
+    "name": "Jaime Lannister",
+    "birthPlace": "???",
+    "livingIn": "Kings Landing",
+    "skill": "Knight",
+    "alive": "YES",
+    "PARENT-BLADE": "Tywin",
+    "PARENT-CHALICE": "???",
+    "SIBLING-BLADE": "tyrion",
+    "SIBLING-CHALICE": "cercei"
+  }]
+}

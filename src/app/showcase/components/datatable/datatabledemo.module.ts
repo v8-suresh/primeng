@@ -35,6 +35,7 @@ import {MultiSelectModule} from '../../../components/multiselect/multiselect';
 import {GrowlModule} from '../../../components/growl/growl';
 import {TabViewModule} from '../../../components/tabview/tabview';
 import {CodeHighlighterModule} from '../../../components/codehighlighter/codehighlighter';
+import {DataTableComplexDemo} from "./datatablecomplexdemo";
 
 @NgModule({
 	imports: [
@@ -75,7 +76,8 @@ import {CodeHighlighterModule} from '../../../components/codehighlighter/codehig
         DataTableSelectionDemo,
         DataTableSortDemo,
         DataTableTemplatingDemo,
-        DataTableSubmenu
+        DataTableSubmenu,
+        DataTableComplexDemo
 	]
 })
 export class DataTableDemoModule {}

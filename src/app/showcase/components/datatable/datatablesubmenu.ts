@@ -25,6 +25,7 @@ import {Component} from '@angular/core';
                 <li><a [routerLink]="['/datatable/responsive']">&#9679; Responsive</a></li>
                 <li><a [routerLink]="['/datatable/crud']">&#9679; Crud</a></li>
                 <li><a [routerLink]="['/datatable/export']">&#9679; Export</a></li>
+                <li><a [routerLink]="['/datatable/gotcomplex']">&#9679; Got Example</a></li>
             </ul>
         </div>
     `
